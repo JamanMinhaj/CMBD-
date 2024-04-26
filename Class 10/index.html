@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/52e3097895.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="doctor_img">
+                <img src="Images/doctor_img.jpg" alt="Doctor"/>
+            </div>
+            <!-- wrapper -->
+           <div class="wrapper">
+            <h1 class="text_center">
+                Book a Consultation
+            </h1>
+            <!-- form -->
+            <form action="https://formspree.io/f/myyrnzay"
+            method="POST">
+                <div class="input_field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text"name="name"id="name"placeholder="Your Name"/>
+                </div>
+                <div class="input_field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email"name="email"id="email"placeholder="@example.com"/>
+                </div>
+                <textarea name="textarea" id="" cols="30" rows="5" placeholder="Write a short Note of your Health Condition..."></textarea>
+                <!-- gander -->
+
+                <div class="gander_group">
+                    <label for="gander"class="gander_label">
+                        Choose Gander
+                    </label>
+                    <div class="gander">
+                        <label for="gander">Male</label>
+                        <input type="radio"id="gander"name="gander"value="male"/>
+                        <label for="gander">Female</label>
+                        <input type="radio"id="gander"name="gander"value="female"/>
+                    </div>
+    
+                </div>
+                <!-- button -->
+                <input type="submit" class="submit_btn" value="Book My Call"/>
+            </form>
+        </div>
+      </section>
+    </main>
+</body>
+</html>

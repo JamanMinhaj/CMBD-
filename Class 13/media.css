@@ -1,0 +1,104 @@
+@media (min-width: 2560px) {
+    .footer::before {
+        position: absolute;
+        top: -50px;
+    }
+}
+@media (max-width: 1170px) {
+    .wrapper {
+        padding: 0 1.5rem 0 1.5rem;
+    }
+}
+@media (max-width: 992px) {
+    .skill h3,
+    .fiverr h3,
+    .upwork h3,
+    .dribbble h3,
+    .behance h3,
+    .linkedin h3 {
+        font-size: 1.1rem;
+    }
+    .skill a span,
+    .fiverr a span,
+    .upwork a span,
+    .dribbble a span,
+    .behance a span,
+    .linkedin a span {
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .site_navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .site_navbar .wrapper {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .links {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .hero_section .flex {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .associated_brand {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .associated_brand a {
+        margin: 0 0 1rem 0;
+    }
+    .how_work .process_way {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.2rem;
+    }
+    .find_job {
+        flex-direction: column;
+    }
+    .find_job .title_sec {
+        order: 2;
+    }
+    .feature_section .feature_wrapper {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.2rem;
+    }
+    .se_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.2rem;
+    }
+    .resume .inner {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .inner h2 {
+        margin-bottom: 2rem;
+    }
+    .inner form {
+        text-align: left;
+    }
+    .f_left {
+        flex-direction: column;
+    }
+    .f_form {
+        margin-left: -73px;
+    }
+    .footer_nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .s_r_head {
+        flex-direction: column;
+    }
+    .s_r_head p {
+        margin-bottom: 1.3rem;
+    }
+}
+
+    
